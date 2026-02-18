@@ -2,6 +2,9 @@
 
 # Mac OS X configuration
 #
+# This config was taken from Jeff Geerlings repository for his dotfiles, and modified to fit my needs.
+# The original file can be found here: @see: https://github.com/geerlingguy/dotfiles 
+#
 # This configuration applies to the latest version of macOS (currently 26.3 Tahoe),
 # and sets up preferences and configurations for all the built-in services and
 # apps. Third-party app config should be done elsewhere.
@@ -254,4 +257,4 @@ if [[ ! ($* == *--no-restart*) ]]; then
   done
 fi
 
-printf "Please log out and log back in to make all settings take effect.\n"
+printf "Please log out and log back in to make all settings take effect.\n" 
